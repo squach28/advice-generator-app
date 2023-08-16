@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      content: {
-        'patternDividerIcon': 'url("./src/assets/images/pattern-divider-mobile.svg")'
-      }
     },
   },
   plugins: [],
