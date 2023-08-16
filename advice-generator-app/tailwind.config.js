@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      content: {
+        'patternDividerIcon': 'url("./src/assets/images/pattern-divider-mobile.svg")'
+      }
+    },
   },
   plugins: [],
 }
