@@ -16,7 +16,7 @@ const AdviceGenerator = () => {
             <h1 className="text-sm font-normal tracking-widest uppercase text-[#52ffa8]">Advice #{advice.id}</h1>
             <p className="text-[#cee3e9] text-center text-[28px]"><q>{advice.advice}</q></p>
             <img className="mx-auto w-full" src={PatternDividerIcon} alt="pattern divider of line with pause icon"/>
-            <div className="top-[25px] relative rounded-full bg-[#52ffa8] cursor-pointer">
+            <div className="top-[25px] relative rounded-full bg-[#52ffa8] cursor-pointer hover:shadow-[0_0_25px_3px_rgba(82,255,168,0.75)]">
                 <img className="p-4" src={DiceIcon} alt="dice with value of five" />
             </div>
         </div>
